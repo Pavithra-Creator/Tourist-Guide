@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:fillViewport="false"
+
+    android:background="@drawable/blur1"
+    android:layout_height="wrap_content"
+    tools:context=".ban">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ViewFlipper
+                android:id="@+id/v_flipper"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_centerInParent="true" >
+
+            </ViewFlipper>
+
+
+        </TableRow>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bangalore"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bangalore, now called Bengaluru, is the capital city of Karnataka in south India. The city has earned several names such as Silicon Valley of India, Pub Capital of India, Air Conditioned City, and City of Gardens. Prior to the IT revolution, Bangalore was known as Pensioners' Paradise."
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/b1" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bangalore Palace"
+                android:textSize="30sp"
+                android:textColor="@android:color/black"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Built in 1887 by Chamaraja Wodeyar, Bangalore Palace is inspired by England's Windsor Castle. This evocative palace has Tudor-style architecture, with fortified towers, arches, green lawns, and elegant woodcarvings in its interiors."
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="italic"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The palace is open from  10 a.m. until 5.30 p.m. "
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+            <Button
+                android:id="@+id/palace"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/feedbutton"
+                android:text="360 View"
+                android:textSize="20sp"
+                android:textColor="@android:color/background_light"/>
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/b2" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="National Gallery of Modern Art"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+              android:text="If you're an art lover, don't miss visiting the National Gallery of Modern Art on Palace Road. This gallery, which opened in 2009, is the third such one in India (the others are in Delhi and Mumbai). It's housed in a Colonial mansion with a garden setting and has two interconnected wings."
+                android:textColor="@android:color/black"
+                android:textStyle="italic"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               android:text="The gallery is open daily, ​except Monday, from 10 a.m until 5 p.m."
+                android:textColor="@android:color/black"
+                android:textStyle="italic"
+                android:textSize="20sp" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+            <Button
+                android:id="@+id/modern"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/feedbutton"
+                android:text="360 View"
+                android:textSize="20sp"
+                android:textColor="@android:color/background_light"/>
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/b3" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tipu Sultan's Palace and Fort"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Situated inside the Bangalore Fort area, Tipu Sultan's Palace was originally built by Chikkadeva Raya in mud. Later, Hyder Ali started reconstruction in Indo-Islamic architecture. This was completed by his son, Tipu Sultan, in 1791. The Hindu temple seen in the courtyard of the fort is the proof of Tipu Sultan's religious tolerance."
+                android:textColor="@android:color/black"
+                android:textStyle="italic"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The palace is open daily from 8.30 a.m. until 5.30 p.m. "
+                android:textColor="@android:color/black"
+                android:textStyle="italic"
+                android:textSize="20sp" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+            <Button
+                android:id="@+id/tipu"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/feedbutton"
+                android:text="360 View"
+                android:textSize="20sp"
+                android:textColor="@android:color/background_light"/>
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/b4" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Krishna Rajendra (KR) Market"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="This vivid, traditional local market is an assault on the senses and a treat for photographers. In the middle of it is Bangalore's bustling flower market. Go there in the early morning to best experience the colors and crowds, when piles of fresh stock are being unloaded and sold. "
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Spciality:
+The market also sells a variety of fresh produce, spices, and copper items."
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+            <Button
+                android:id="@+id/krishna"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/feedbutton"
+                android:text="360 View"
+                android:textSize="20sp"
+                android:textColor="@android:color/background_light"/>
+
+
+        </TableRow>
+
+
+
+
+
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/b5" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lalbagh Botanical Garden"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="This expansive garden started out as a private Mughal-style garden for the city's royal rulers. It was established in 1760 by Hyder Ali and later extended by his son Tipu Sultan. It now covers 240 acres, and derives its name from the red roses that bloom throughout the year there. The garden is said to have the most diverse species of plants in the world.This expansive garden started out as a private Mughal-style garden for the city's royal rulers. It was established in 1760 by Hyder Ali and later extended by his son Tipu Sultan. It now covers 240 acres, and derives its name from the red roses that bloom throughout the year there. The garden is said to have the most diverse species of plants in the world."
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:text="Time: The garden is open from 6.00 a.m. to 7.00 p.m. throughout the year."
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+            <Button
+                android:id="@+id/lalbagh"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/button_rectangle_pink"
+                android:text="360 View"
+                android:textSize="20sp"
+                android:textColor="@android:color/background_light"/>
+
+
+        </TableRow>
+
+
+
+
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/b6" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cubbon Park)"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:text="Occupying a 300-acre area in Bangalore's business district, Cubbon Park is a popular place for walkers, joggers, nature lovers, and anyone who just wants to laze around. The park was named after the erstwhile Commissioner of Bangalore, Sir Mark Cubbon."
+                android:textSize="20sp" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+            <Button
+                android:id="@+id/park"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/feedbutton"
+                android:text="360 View"
+                android:textSize="20sp"
+                android:textColor="@android:color/background_light"/>
+
+
+        </TableRow>
+
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <ImageView
+                android:id="@+id/imageView29"
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/b7" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ulsoor Lake"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:text="Picturesque Ulsoor Lake is spread over an area of 125 acres in the heart of the city, north of M.G. Road. It was constructed by Kempegowda II."
+                android:textSize="20sp" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+android:text="Timing:It's open daily, except Wednesdays, from 6 a.m. until 8 p.m."
+                android:textSize="20sp" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+            <Button
+                android:id="@+id/lake"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/feedbutton"
+                android:text="360 View"
+                android:textSize="20sp"
+                android:textColor="@android:color/background_light"/>
+
+
+        </TableRow>
+
+
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/b8" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Attractions Nearby"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:text="It's also worth exploring the area around Bangalore. There are many places of interest, whether you're after an escape from city life or are a visitor who wants to spend a day enjoying the abundant beauty of Mother Nature."
+                android:textSize="20sp" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+            <Button
+                android:id="@+id/near"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/feedbutton"
+                android:text="360 View"
+                android:textSize="20sp"
+                android:textColor="@android:color/background_light"/>
+
+
+        </TableRow>
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

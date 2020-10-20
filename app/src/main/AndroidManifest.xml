@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.Guide">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/t1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".gallary"></activity>
+        <activity android:name=".video" />
+        <activity android:name=".signin" />
+        <activity android:name=".aregister" />
+        <activity android:name=".tamilmail" />
+        <activity android:name=".karalamail" />
+        <activity android:name=".delhimail" />
+        <activity android:name=".banmail" />
+        <activity android:name=".taj" />
+        <activity android:name=".feedback" />
+        <activity android:name=".Contact" />
+        <activity android:name=".near" />
+        <activity android:name=".lake" />
+        <activity android:name=".lalbagh" />
+        <activity android:name=".park" />
+        <activity android:name=".krishna" />
+        <activity android:name=".tipu" />
+        <activity android:name=".modern" />
+        <activity android:name=".bangpalace" />
+        <activity android:name=".kochi" />
+        <activity android:name=".kozhikode" />
+        <activity android:name=".kollam" />
+        <activity android:name=".poovar" />
+        <activity android:name=".thiruvan" />
+        <activity android:name=".thekkady" />
+        <activity android:name=".allappy" />
+        <activity android:name=".munnar" />
+        <activity android:name=".kovalam" />
+        <activity android:name=".attirapilly" />
+        <activity android:name=".madu" />
+        <activity android:name=".chid" />
+        <activity android:name=".than" />
+        <activity android:name=".kanya" />
+        <activity android:name=".dhan" />
+        <activity android:name=".mudu" />
+        <activity android:name=".pond" />
+        <activity android:name=".chan" />
+        <activity android:name=".raj" />
+        <activity android:name=".gate" />
+        <activity android:name=".garden" />
+        <activity android:name=".tughlad" />
+        <activity android:name=".lotusimages" />
+        <activity android:name=".ban" />
+        <activity android:name=".karala" />
+        <activity android:name=".bganim" />
+        <activity android:name=".Delhi" />
+        <activity android:name=".Chennai" />
+        <activity android:name=".DashActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

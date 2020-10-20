@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/g4"
+
+    tools:context=".karalamail">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Message"
+                android:textColor="@android:color/background_light"
+                android:textSize="34sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/iv_user"
+                android:layout_width="220dp"
+                android:layout_height="150dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+
+                android:layout_marginRight="30dp"
+                android:paddingTop="20dp"
+                app:srcCompat="@drawable/sendmail" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp">
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="300dp"
+                android:layout_height="65dp"
+
+
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="0dp"
+                android:background="#11000000"
+
+                android:ems="10"
+
+                android:hint="username"
+                android:inputType="text"
+                android:textColor="@android:color/background_light" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="400dp"
+                android:layout_height="65dp"
+
+
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="40dp"
+
+                android:background="#11000000"
+
+                android:ems="10"
+                android:hint="Message"
+                android:inputType="text"
+                android:textColor="@android:color/background_light" />
+
+        </TableRow>
+
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/editText1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="75dp"
+            android:layout_marginRight="75dp"
+            android:background="@drawable/button_rectangle_pink"
+            android:text="Send"
+            android:textSize="20sp"
+            android:textColor="@android:color/background_light"/>
+
+
+
+    </TableLayout>
+
+</RelativeLayout>

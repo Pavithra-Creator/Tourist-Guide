@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:fillViewport="false"
+    android:layout_height="wrap_content"
+    android:background="@drawable/blur1"
+    tools:context=".Chennai">
+
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+          <TableRow
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+              <ViewFlipper
+                  android:id="@+id/v_flipper"
+                  android:layout_width="match_parent"
+                  android:layout_height="200dp"
+                  android:layout_centerInParent="true" >
+
+              </ViewFlipper>
+
+
+          </TableRow>
+
+          <TextView
+              android:id="@+id/textView4"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Chennai"
+              android:textColor="@android:color/black"
+              android:textSize="30sp"
+              android:textStyle="bold" />
+
+          <TableRow
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+              <TextView
+                  android:id="@+id/textView5"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:text="Being the capital of the state and a home to beautiful temples, churches, and beaches,Chennai is one Tamil Nadu tourist place that would let you have a real glimpse of South India and its lifestyle.If culture, history, or art lies anywhere under your interest list,this is a place you should definitely consider visiting!"
+                  android:textColor="@android:color/black"
+                  android:textStyle="italic"
+                  android:textSize="20sp" />
+          </TableRow>
+
+          <TableRow
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingTop="20dp">
+
+              <TextView
+                  android:id="@+id/textView6"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Best Time to Visit Chennai:
+                  November to February"
+                  android:textColor="@android:color/black"
+                  android:textSize="20sp"
+                  android:textStyle="italic" />
+          </TableRow>
+          <TableRow
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingTop="20dp">
+              <Button
+                  android:id="@+id/chan"
+                  android:layout_width="250dp"
+                  android:layout_height="wrap_content"
+                  android:layout_centerHorizontal="true"
+                  android:layout_marginTop="30dp"
+                  android:background="@drawable/feedbutton"
+                  android:text="360 View"
+                  android:textSize="20sp"
+                  android:textColor="@android:color/background_light"/>
+
+
+          </TableRow>
+
+          <TableRow
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingTop="20dp">
+
+              <ImageView
+                  android:id="@+id/imageView3"
+                  android:layout_width="400dp"
+                  android:layout_height="300dp"
+                  app:srcCompat="@drawable/k7" />
+
+          </TableRow>
+
+
+
+
+
+          <TableRow
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingTop="20dp">
+
+              <TextView
+                  android:id="@+id/textView7"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="2. Pondicherry"
+                  android:textColor="@android:color/black"
+                  android:textSize="30sp"
+                  android:textStyle="bold" />
+          </TableRow>
+          <TableRow
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingTop="20dp">
+
+              <TextView
+                  android:id="@+id/textView8"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Also known as Puducherry, this is an ideal place for explorers, beach lovers, and experience-seekers interested in French culture and architecture.
+If you have had too much of Goa already or even if you haven’t, it’s time you witness the charm of Pondy!!"
+                  android:textColor="@android:color/black"
+                  android:textSize="20sp"
+                  android:textStyle="italic" />
+          </TableRow>
+
+          <TableRow
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingTop="20dp">
+
+              <TextView
+                  android:id="@+id/textView9"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Best Time to Visit Chennai:
+                 October to March"
+                  android:textColor="@android:color/black"
+                  android:textSize="20sp"
+                  android:textStyle="italic" />
+          </TableRow>
+          <TableRow
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingTop="20dp">
+              <Button
+                  android:id="@+id/pond"
+                  android:layout_width="250dp"
+                  android:layout_height="wrap_content"
+                  android:layout_centerHorizontal="true"
+                  android:layout_marginTop="30dp"
+                  android:background="@drawable/feedbutton"
+                  android:text="360 View"
+                  android:textSize="20sp"
+                  android:textColor="@android:color/background_light"/>
+
+
+          </TableRow>
+
+          <TableRow
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingTop="20dp">
+
+              <ImageView
+                  android:id="@+id/imageView4"
+                  android:layout_width="400dp"
+                  android:layout_height="300dp"
+                  app:srcCompat="@drawable/c3" />
+          </TableRow>
+
+
+
+
+
+          <TableRow
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingTop="20dp">
+
+              <TextView
+                  android:id="@+id/textView10"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="3. Mudumalai"
+                  android:textColor="@android:color/black"
+                  android:textSize="30sp"
+                  android:textStyle="bold" />
+          </TableRow>
+          <TableRow
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingTop="20dp">
+
+              <TextView
+                  android:id="@+id/textView11"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:text="Located in the Nilgiri hills, Mudumalai is one of the best tourist places in Tamil Nadu, which is known for its wildlife persona.
+For anyone who loves an encounter with nature in the most unique way, the national park here is a must visit."
+                  android:textColor="@android:color/black"
+                  android:textSize="20sp"
+                  android:textStyle="italic" />
+          </TableRow>
+
+          <TableRow
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingTop="20dp">
+
+              <TextView
+                  android:id="@+id/textView12"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Best Time to Visit Chennai:
+                 October to May"
+                  android:textColor="@android:color/black"
+                  android:textSize="20sp"
+                  android:textStyle="italic" />
+          </TableRow>
+          <TableRow
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingTop="20dp">
+              <Button
+                  android:id="@+id/mudu"
+                  android:layout_width="250dp"
+                  android:layout_height="wrap_content"
+                  android:layout_centerHorizontal="true"
+                  android:layout_marginTop="30dp"
+                  android:background="@drawable/feedbutton"
+                  android:text="360 View"
+                  android:textSize="20sp"
+                  android:textColor="@android:color/background_light"/>
+
+
+          </TableRow>
+
+          <TableRow
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingTop="20dp">
+
+              <ImageView
+                  android:id="@+id/imageView5"
+                  android:layout_width="400dp"
+                  android:layout_height="300dp"
+                  app:srcCompat="@drawable/c4" />
+
+          </TableRow>
+
+
+
+          <TableRow
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingTop="20dp">
+
+              <TextView
+                  android:id="@+id/textView13"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="4. Dhanushkodi"
+                  android:textColor="@android:color/black"
+                  android:textSize="30sp"
+                  android:textStyle="bold" />
+          </TableRow>
+          <TableRow
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingTop="20dp">
+
+              <TextView
+                  android:id="@+id/textView14"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="If you are someone who’s on a constant lookout for places that are away from the city life, Dhanushkodi is one of the best places to visit in Tamil Nadu.
+This beach town’s grandeur and beauty make for a perfect recipe for your next refreshing getaway!."
+                  android:textColor="@android:color/black"
+                  android:textSize="20sp"
+                  android:textStyle="italic" />
+          </TableRow>
+
+          <TableRow
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingTop="20dp">
+
+              <TextView
+                  android:id="@+id/textView15"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Best Time to Visit Dhanushkodi: October to February"
+                  android:textColor="@android:color/black"
+                  android:textSize="20sp"
+                  android:textStyle="italic" />
+          </TableRow>
+          <TableRow
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingTop="20dp">
+              <Button
+                  android:id="@+id/dhan"
+                  android:layout_width="250dp"
+                  android:layout_height="wrap_content"
+
+                  android:layout_centerHorizontal="true"
+                  android:layout_marginTop="30dp"
+                  android:background="@drawable/feedbutton"
+                  android:text="360 View"
+                  android:textSize="20sp"
+                  android:textColor="@android:color/background_light"/>
+
+
+          </TableRow>
+
+          <TableRow
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingTop="20dp">
+
+              <ImageView
+                  android:id="@+id/imageView6"
+                  android:layout_width="400dp"
+                  android:layout_height="300dp"
+                  app:srcCompat="@drawable/dhan" />
+
+          </TableRow>
+
+
+
+
+
+          <TableRow
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingTop="20dp">
+
+              <TextView
+                  android:id="@+id/textView16"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="5.Kanyakumari"
+                  android:textColor="@android:color/black"
+                  android:textSize="30sp"
+                  android:textStyle="normal|bold|italic" />
+          </TableRow>
+          <TableRow
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingTop="20dp">
+
+              <TextView
+                  android:id="@+id/textView17"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+
+                  android:layout_marginRight="10dp"
+                  android:text="Famous for being one of the most exotic places in India, Kanyakumari is a paradise for experience-seekers. The art, architecture of temples, and even the local cuisine that reflects every bit of its culture will leave you fascinated!"
+                  android:textColor="@android:color/black"
+                  android:textSize="20sp"
+                  android:textStyle="italic" />
+          </TableRow>
+
+          <TableRow
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingTop="20dp">
+
+              <TextView
+                  android:id="@+id/textView18"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Best Time to Visit Kanyakumari: October to March"
+                  android:textColor="@android:color/black"
+                  android:textSize="20sp"
+                  android:textStyle="italic" />
+          </TableRow>
+          <TableRow
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingTop="20dp">
+              <Button
+                  android:id="@+id/kanya"
+                  android:layout_width="250dp"
+                  android:layout_height="wrap_content"
+
+                  android:layout_centerHorizontal="true"
+                  android:layout_marginTop="30dp"
+                  android:background="@drawable/feedbutton"
+                  android:text="360 View"
+                  android:textSize="20sp"
+                  android:textColor="@android:color/background_light"/>
+
+
+          </TableRow>
+
+          <TableRow
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingTop="20dp">
+
+              <ImageView
+                  android:id="@+id/imageView7"
+                  android:layout_width="400dp"
+                  android:layout_height="300dp"
+                  app:srcCompat="@drawable/main" />
+
+          </TableRow>
+
+
+
+
+
+
+
+          <TableRow
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingTop="20dp">
+
+              <TextView
+                  android:id="@+id/textView22"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Madurai"
+                  android:textColor="@android:color/black"
+                  android:textSize="30sp"
+                  android:textStyle="bold" />
+          </TableRow>
+          <TableRow
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingTop="20dp">
+
+              <TextView
+                  android:id="@+id/textView23"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:text="Constructed like a lotus, Madurai is mostly popular for its Meenakshi Temple. This city is definitely one of the top tourist places in Tamil Nadu to visit on your next trip if you admire great architecture or are religious at heart."
+                  android:textColor="@android:color/black"
+                  android:textSize="20sp"
+                  android:textStyle="italic" />
+          </TableRow>
+
+          <TableRow
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingTop="20dp">
+
+              <TextView
+                  android:id="@+id/textView24"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Best Time to Visit Madurai: December to February"
+                  android:textColor="@android:color/black"
+                  android:textSize="20sp"
+                  android:textStyle="italic" />
+          </TableRow>
+          <TableRow
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingTop="20dp">
+              <Button
+                  android:id="@+id/madu"
+                  android:layout_width="250dp"
+                  android:layout_height="wrap_content"
+
+                  android:layout_centerHorizontal="true"
+                  android:layout_marginTop="30dp"
+                  android:background="@drawable/feedbutton"
+                  android:text="360 View"
+                  android:textSize="20sp"
+                  android:textColor="@android:color/background_light"/>
+
+
+          </TableRow>
+
+          <TableRow
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingTop="20dp">
+
+              <ImageView
+                  android:id="@+id/imageView10"
+                  android:layout_width="400dp"
+                  android:layout_height="300dp"
+                  app:srcCompat="@drawable/ma" />
+
+          </TableRow>
+
+
+
+          <TableRow
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingTop="20dp">
+
+              <TextView
+                  android:id="@+id/textView25"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Thanjavur"
+                  android:textColor="@android:color/black"
+                  android:textSize="30sp"
+                  android:textStyle="bold" />
+          </TableRow>
+          <TableRow
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingTop="20dp">
+
+              <TextView
+                  android:id="@+id/textView26"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:paddingLeft="10dp"
+                  android:paddingRight="10dp"
+                  android:singleLine="true"
+                  android:text="Of all the best tourist places in Tamil Nadu, Thanjavur has a lot to offer when it comes to experiences. This city of temples boast paintings, antiques, handicrafts, textiles, and sarees, which are amongst the popular things to be admired around."
+
+
+                  android:textColor="@android:color/black"
+                  android:textSize="20sp"
+                  android:textStyle="italic" />
+          </TableRow>
+
+          <TableRow
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingTop="20dp">
+
+              <TextView
+                  android:id="@+id/textView27"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Best Time to Visit Thanjavur: October to March"
+                  android:textColor="@android:color/black"
+                  android:textSize="20sp"
+                  android:textStyle="italic" />
+          </TableRow>
+          <TableRow
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingTop="20dp">
+              <Button
+                  android:id="@+id/than"
+                  android:layout_width="250dp"
+                  android:layout_height="wrap_content"
+
+                  android:layout_centerHorizontal="true"
+                  android:layout_marginTop="30dp"
+                  android:background="@drawable/feedbutton"
+                  android:text="360 View"
+                  android:textSize="20sp"
+                  android:textColor="@android:color/background_light"/>
+
+
+          </TableRow>
+
+          <TableRow
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingTop="20dp">
+
+              <ImageView
+                  android:id="@+id/imageView11"
+                  android:layout_width="400dp"
+                  android:layout_height="300dp"
+                  app:srcCompat="@drawable/than" />
+
+          </TableRow>
+
+
+
+
+
+          <TableRow
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingTop="20dp">
+
+              <TextView
+                  android:id="@+id/textView28"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Chidambaram"
+                  android:textColor="@android:color/black"
+                  android:textSize="30sp"
+                  android:textStyle="bold" />
+          </TableRow>
+          <TableRow
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingTop="20dp">
+
+              <TextView
+                  android:id="@+id/textView29"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:text="A beautiful temple town, Chidambaram is situated in the eastern part of Tamil Nadu. The glorious history, rich culture, and diverse traditions of this city have the magic of leaving anyone in awe. A trip to this town is perfect if you’re a history buff, or have a thirst for knowledge."
+                  android:textColor="@android:color/black"
+                  android:textSize="20sp"
+                  android:textStyle="italic" />
+          </TableRow>
+
+          <TableRow
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingTop="20dp">
+
+              <TextView
+                  android:id="@+id/textView30"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+
+                  android:text="Best Time to Visit Chidambaram: October to March"
+                  android:textColor="@android:color/black"
+                  android:textSize="20sp"
+                  android:textStyle="italic" />
+          </TableRow>
+          <TableRow
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingTop="20dp">
+              <Button
+                  android:id="@+id/chid"
+                  android:layout_width="250dp"
+                  android:layout_height="wrap_content"
+
+                  android:layout_centerHorizontal="true"
+                  android:layout_marginTop="30dp"
+                  android:background="@drawable/feedbutton"
+                  android:text="360 View"
+                  android:textSize="20sp"
+                  android:textColor="@android:color/background_light"/>
+
+
+          </TableRow>
+
+          <TableRow
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingTop="20dp">
+
+              <ImageView
+                  android:id="@+id/imageView12"
+                  android:layout_width="400dp"
+                  android:layout_height="300dp"
+                  app:srcCompat="@drawable/chin" />
+
+          </TableRow>
+
+      </LinearLayout>
+    </ScrollView>

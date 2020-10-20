@@ -1,0 +1,986 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:fillViewport="false"
+    android:layout_height="wrap_content"
+
+    android:background="@drawable/blur1"
+    tools:context=".karala">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ViewFlipper
+                android:id="@+id/v_flipper"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_centerInParent="true" >
+
+            </ViewFlipper>
+
+
+        </TableRow>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Karala"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kerala , known as Gods Own Country has some of the best tourist destinations in India for any kind of holiday. It is the land of coconuts, backwaters, elephants and the land of rich cultures and traditions, and has been one of the most sought after places by travelers from all around the world and the Best places to visit in kerala is a long list of places that exudes variety and rich heritage."
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+        </TableRow>
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/k2" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Athirappilly Waterfalls"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The splendorous, 80-feet high and 330-feet wide, Athirapally Waterfalls is the biggest waterfall in Kerala. The waterfall is in the border of Ernakulam District and Thrissur District in Kerala and is in a protected area. The parallel streams resemble Niagara Falls in the Monsoon season and so-called ‘The Niagara falls of India’."
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Best Time to Visit Athirappilly Waterfalls
+                September to January"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Popular Tourist Attractions near Athirappilly Waterfalls
+                Vazhachal Falls, Chapra Falls, Anakkayam, Sholayar Dam, Valparai and Malayattur Wildlife Sanctuary."
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+            <Button
+                android:id="@+id/atthir"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/feedbutton"
+                android:text="360 View"
+                android:textSize="20sp"
+                android:textColor="@android:color/background_light"/>
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/k3" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kovalam"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kovalam, one of the most popular beach destinations in Kerala located in Thiruvananthapuram is also called ‘the beach town’. The land is surrounded with three curve shaped beaches, the Lighthouse beach, Hawah Beach and Samudra Beach. The three beaches are separated naturally with heavy stone outcroppings adding more attraction to the view of Kovalam."
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Best Time to Visit Kovalam:
+                November to February"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Popular Tourist Attractions:
+                Neyyar Dam, Karamana River, Vellayani Lake, Valiyathura Pier, Halcyon Castle, Kovalam Art Gallery, Aruvikkara Dam, Thiruvallam Parasurama Temple, Vizhinjam Juma Masjid mosque, Vizhinjam Rock Cut Cave Temple, Sagarika Marine Research Aquarium"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+            <Button
+                android:id="@+id/kovalam"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/feedbutton"
+                android:text="360 View"
+                android:textSize="20sp"
+                android:textColor="@android:color/background_light"/>
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/k4" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Munnar"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Munnar is the most popular hill station in South India and the best tourist place in Kerala to visit for 2 days. It has a unique views of verdant mountain slopes which are covered with about 80,000 miles of green tea farms like organic bedding over mountains which offer views of low-flying clouds and misty valleys. Munnar is usually cold and relaxed and gives you a incredible sensation, with the dense spray around you in the center of the organic tea farms. Munnar was once the summer season of the erstwhile English and English settlers found that the elevation, slope and alignment of the hills were particularly designed for the farming of tea. The modern end result is the lavish organic mountains decorated by tea gardens which is the sight to look out for in modern Munnar."
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Best Months to visit Munnar:
+                All around the year"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Popular tourist attractions in Munnar:
+                TATA Tea Museum, Blossom Park, Pothamedu View Point, Attukal Waterfalls, Top Station, Kundala Lake, Mattupetty Dam, Eravikulam National Park, Marayoor Dolmens, Anamudi, Indo Swiss Diary Farm, Lockhart Gap, Cheeyapara Waterfalls, Life of Pi Church, Meesapulimala"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+            <Button
+                android:id="@+id/munnar"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/feedbutton"
+                android:text="360 View"
+                android:textSize="20sp"
+                android:textColor="@android:color/background_light"/>
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/k5" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alleppey"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alleppey is well known for the backwater trips on houseboats and always comes on top among the best destinations to visit in Kerala with friends and check out in Kerala, simply because it is a exclusive encounter that you cannot get anywhere else on the globe. Alleppey was described as the one of the locations known as ‘Venice of the East’ by Lord Curzon. A houseboat vacation along the natural backwaters in Alleppey provides a chance to observe landscapes attractions like lavish paddy areas below the water levels, small chapels, fishing with netting, ducks in water, water lilies etc,"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Best months to Visit Alleppey -
+                All throughout the year"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Popular tourist attractions in Alleppey–
+                Houseboats, Backwaters, Krishnapuram Palace, Alappuzha Beach , Ravi karunakaran museum , Marari Beach, Punnamada Lake"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+            <Button
+                android:id="@+id/allappy"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/feedbutton"
+                android:text="360 View"
+                android:textSize="20sp"
+                android:textColor="@android:color/background_light"/>
+
+
+        </TableRow>
+
+
+
+
+
+
+
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/k6" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thekkady"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Periyar Wildlife sanctuary in Thekkady is a popular wild life sanctuary preserving various species of animals including elephants, tigers, sambars, gaurs and the very rare lion tailed macaques. The forest is situated on the banks of the lake, Periyar. Of the 777 sq kms of area, 360 sq km has been taken up bythe thick evergreen forest. Thekkady’s scenic beauty along with its wildlife has been attracting tourists and visitors from all over the world for years."
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Best months to Visit Thekkady -September to May"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Popular tourist attractions in Thekkady–
+                Thekkady Boating, Periyar National Park, Mullaperiyar Dam, Kerala Ayurveda Tourism Angadippetty"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+            <Button
+                android:id="@+id/thekkady"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/feedbutton"
+                android:text="360 View"
+                android:textSize="20sp"
+                android:textColor="@android:color/background_light"/>
+
+
+        </TableRow>
+
+
+
+
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/k7" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kochi"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cochin is in central kerala and it is easy to get to most of the tourist places in Kerala from Kochi , the primary reason because of which Kochi is the starting point for most of the Kerala tour packages. Though the tourist destination is known as Kochi, it is a part of Ernakulam which is a beautiful district located on the coast of the Arabian Sea and must see place to go in Kerala."
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Best months to Visit Kochi -
+                All Throughout the Year"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Popular tourist attractions in Kochi– Fort Kochi, Cherai, Mattancherry Palace, St. Francis Church, Kochi, Hill Palace, Tripunithura, Jew Town"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+            <Button
+                android:id="@+id/kochi"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/feedbutton"
+                android:text="360 View"
+                android:textSize="20sp"
+                android:textColor="@android:color/background_light"/>
+
+
+        </TableRow>
+
+
+
+
+
+
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/k8" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thiruvananthapuram"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thiruvananthapuram which is the capital city of Kerala is a blend of serenity and city life.Thiruvananthapuram means The City of Lord Anantha is of historical importance and has many stories to unfold. Thiruvananthapuram owes a lot to Padmanabha Swamy Temple – for the charm, fame and the name. This huge temple dedicated to Lord Vishnu situates in the heart of the city, East Fort"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Best months to Visit Thiruvananthapuram –
+                All Throughout the Year"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Popular tourist attractions in Thiruvananthapuram–
+                Padmanabhaswamy Temple, Napier Museum, Shankumugham Beach, Thiruvananthapuram Zoo, Kuthira Malika"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+            <Button
+                android:id="@+id/thiru"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/feedbutton"
+                android:text="360 View"
+                android:textSize="20sp"
+                android:textColor="@android:color/background_light"/>
+
+
+        </TableRow>
+
+
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/k10" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Poovar"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Poovar is a coastal village in Neyyattinkara, lies at the southern end of Thiruvananthapuram. The main attraction of the coastal village is Poovar Beach. This beach is where the salty water from the Arabian Sea meets the freshwater of the Neyyar River to form an estuary. Poovar lies adjacent to the natural harbor, Vizhinjam."
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/text35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Best Time to Visit Poovar:
+                November to February"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Popular Tourist Attractions in Poovar:
+                Poovar Beach, Vizhinjam Juma Masjid mosque, Vizhinjam Rock Cut Cave Temple, Thirparapu Falls, Vizhinjam seaport"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+            <Button
+                android:id="@+id/poovar"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/feedbutton"
+                android:text="360 View"
+                android:textSize="20sp"
+                android:textColor="@android:color/background_light"/>
+
+
+        </TableRow>
+
+
+
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/k11" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kollam"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kollam, also known as Quilon and Desinganadu is an old seaport and city situated in the Coast of Laccadive Sea in Kerala. Kollam city is located in the banks of Ashtamudi Lake which lie about 71 kilometers north of Thiruvananthapuram. Kollam is referred as the gateway to Kerala backwaters blessed with the mystic beauty of sea, lakes, rivers, streams, backwaters etc.The coastal beauty of Kollam makes it an ideal place to visit."
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/text38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Best time to visit Kollam:
+                November to February"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Popular attractions in Kollam:
+                Lighthouse, Ashtamudi Backwaters, Thangasseri, Sasthamkotta, Kulathupuzha, Paravoor, Thenmala, Palaruvi, Jatayupara, Kottukal Rock-Cut Cave Temple."
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="normal|italic" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+            <Button
+                android:id="@+id/kollam"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/feedbutton"
+                android:text="360 View"
+                android:textSize="20sp"
+                android:textColor="@android:color/background_light"/>
+
+
+        </TableRow>
+
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/k12" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kozhikode"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kozhikode also known as Calicut is famous for its historical, cultural, educational and culinary excellence. Calicut used to be the main trading center in the past between Kerala and the rest of the world. Vasco da Gama in his search for spices and other trades came to Calicut first, who was later followed by the English and Dutch. Today, Calicut is one of the most active commercial cities in Kerala. The National Institute of Technology and the Indian Institute of Management have their campuses here in Calicut offering higher and sophisticated education to the deserving candidates."
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/text41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Best months to Visit Kozhikode -
+                All Throughout the year"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Popular tourist attractions in Kozhikode –
+                Kozhikode Beach, Mananchira Square, Kadalundi Bird Sanctuary, Beypore Beach, Kappad Beach"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+            <Button
+                android:id="@+id/kozhi"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/feedbutton"
+                android:text="360 View"
+                android:textSize="20sp"
+                android:textColor="@android:color/background_light"/>
+
+
+        </TableRow>
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
